@@ -12,6 +12,8 @@ val baseUrl = "https://api.github.com/"
 interface GetUserData {
     @GET("users")
     fun getUserInfo(): Call<UserData>
+
+    // retrofit api documenation: https://square.github.io/retrofit/
 }
 
 object UserDataInstance {
